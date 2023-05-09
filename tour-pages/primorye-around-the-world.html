@@ -1,0 +1,776 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EastWay</title>
+  <link rel="icon" href="../img/hiking_1.png">
+
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/tour.css">
+
+  <!-- Подключение библиотеки шрифтов Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@500&family=Montserrat&family=Righteous&display=swap"
+        rel="stylesheet">
+  <!-- Подключение стилей Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+
+
+<body>
+
+<!-- Навигация-->
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container">
+    <div class="navbar-brand"><h1 class="logo">EastWay</h1></div>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="menu ml-auto"><img src="../img/menu.png" alt="Menu"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">Главная</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../about-us.html">О нас</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+             aria-expanded="false">
+            Туры
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Якутия</a></li>
+            <li><a class="dropdown-item" href="#">Бурятия</a></li>
+            <li><a class="dropdown-item" href="#">Камчатка</a></li>
+            <li><a class="dropdown-item" href="#">Сахалин</a></li>
+            <li><a class="dropdown-item" href="#">Чукотка</a></li>
+            <li><a class="dropdown-item" href="#">Приморский край</a></li>
+            <li><a class="dropdown-item" href="#">Забайкальский край</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="../catalog.html">Все туры</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../contacts.html">Контакты</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<main class="tour-page">
+  <!-- Заголовок -->
+  <div class="tour-header">
+    <div class="container tour-header_container">
+      <h1 class="tour-header_title">Приморская кругосветка</h1>
+      <button class="tour-header_button" onclick="document.location='#booking'"><span>Забронировать</span></button>
+    </div>
+  </div>
+
+
+  <!-- Краткое описание тура -->
+  <div class="short-description">
+    <div class="container">
+      <div class="short-description_row row">
+        <div class="col-md-9 col-xl-6">
+          <div class="short-description_left">
+            <h4 class="short-description_title title-font">Даты набора групп</h4>
+            <ul>
+              <li class="text-size">31 июл — 11 авг 2023</li>
+              <li class="text-size">23 авг — 3 сен 2023</li>
+              <li class="text-size"><a href="#booking" class="short-description_link">Показать все даты</a></li>
+            </ul>
+            <h4 class="short-description_title title-font">Стоимость</h4>
+            <p class="text-size">125.000 р./чел.</p>
+            <h5 class="short-description_title">Возраст</h5>
+            <p class="short-description_text">от 8 лет</p>
+          </div>
+        </div>
+        <div class="col-md-0 col-xl-6">
+          <div class="short-description-right">
+            <h5 class="short-description_title title-font">Уровень сложности</h5>
+            <p class="short-description_text">Повышенный</p>
+            <h5 class="short-description_title title-font">Дней</h5>
+            <p class="short-description_text">12</p>
+            <h5 class="short-description_title title-font">Группа</h5>
+            <p class="short-description_text">6-16 чел.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- Описание тура-->
+  <div class="description section-bg">
+    <div class="description_container container">
+      <div class="description_row row">
+        <div class="col-xs-12 col-md-5  col-xl-5">
+          <div class="description_left">
+            <div class="description_img_container container">
+              <img class="description_image img-fluid d-none d-lg-block" src="/img/tours/primorye3.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-7  col-xl-7">
+          <div class="description_right">
+            <p class="description_text">
+              Первую половину путешествия вы проведете на побережье Японского моря:
+              отдохнете в чистейших бухтах, прогуляетесь к заповедным мысам, увидите
+              живописные кекуры, каскадные водопады и лагунные озера. <br><br>Вторая часть
+              маршрута познакомит вас с заповедной природой горного массива Сихотэ-Алинь.
+              Вы пройдете по местам знаменитых экспедиций Владимира Арсеньева и Дерсу Узала
+              и познакомитесь с богатым природным миром уссурийской тайги.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Программа тура -->
+  <div class="section-bg tour-program container-fluid">
+    <h2 class="tour-program_title title-font title-size">Программа</h2>
+    <div class="tour-program_wrap">
+
+      <div class="accordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseOne">
+              День 1. Треккинг к Беневским водопадам
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <p class="tour-program_text text-size">
+                После встречи с группой в городе вы отправитесь в Лазовский район Приморского края.
+                Здесь вас ждет пеший маршрут к каскадам Беневских водопадов. Вы увидите 3 каскада водопада,
+                в том числе самый красивый водопад Приморья — «Приморская звезда». Также посетите таежный
+                ключ Еломовский. <br><br>
+                Маршрут проходит по лесной тропе в окружении реликтовых тисов, диморфантов, огромных кедров
+                и пихт, переплетенных лианами. По пути открываются живописные виды на базальтовые столбы
+                причудливых форм. К вечеру вы прибудете в бухту Петрова, расположенную на территории Лазовского
+                заповедника. Здесь вы разместитесь в кемпинге на побережье, поужинаете и отдохнете (за дополнительную
+                плату вы можете выбрать размещение в глэмпинге, в комфортных шатрах).
+              </p>
+              <img src="/img/tours/offroad.png" alt="way by car" class="tour-program_img"><span> 330 км</span>
+              <img src="/img/tours/man-walking.png" alt="way on foot" class="tour-program_img"><span> 17 км</span>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseTwo">
+              День 2. Остров Петрова
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <p class="tour-program_text  text-size">
+                Сегодня вы познакомитесь с природой Лазовского заповедника и отправитесь на моторной лодке на остров
+                Петрова. Вас ждет прогулка по экотропе вокруг острова. Это естественный ботанический сад, где
+                произрастает
+                четверть флоры всего региона. Вы увидите лежбища нерп и птичьи колонии, пройдете через реликтовую
+                тисовую
+                рощу, возраст которой превышает 1200 лет. <br><br>
+                Во второй половине дня вы сможете отдохнуть в бухте. Искупаться в море, заняться снорклингом или
+                поплавать
+                на сапбордах. Вечером в кемпинге можно будет сходить в баню.
+              </p>
+              <img src="/img/tours/man-walking.png" alt="way on foot" class="tour-program_img"><span> 5 км</span>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThree">
+              День 3. Парк Драконов
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <p class="tour-program_text  text-size">
+                Утром после завтрака вы отправитесь село Чистоводное, чтобы посетить Парк Драконов, или
+                Приморские Столбы. Горные вершины в результате эрозии превратились в причудливые каменные столбы и
+                замки. Статуи невероятных птиц и драконов возвышаются над кедрово-дубовым лесом. Вы пройдете
+                треккинговый
+                маршрут с остановками на видовых точках, осмотрите первого «дракона» и подниметесь на второго. <br><br>
+                Затем вы переедете в северную часть Лазовского заповедника, на кордон в бухте Проселочная. Дорога
+                пройдет
+                через озеро Заря. Оно уникально тем, что здесь растет реликтовое водное растение — бразения Шребера.
+                На маршруте есть возможность встретить пятнистых оленей, увидеть следы амурского тигра. <br><br>
+                На кордоне вы поужинаете, отдохнете и разместитесь на ночь в гостевых домиках.
+              </p>
+              <img src="/img/tours/offroad.png" alt="way by car" class="tour-program_img"><span> 170 км</span>
+              <img src="/img/tours/man-walking.png" alt="way on foot" class="tour-program_img"><span> 5 км</span>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseFour">
+              День 4. Бухта Проселочная
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <p class="tour-program_text  text-size">
+                Сегодня вы встретите рассвет в бухте Проселочная. Она считается самой красивой в Приморском крае.
+                Песчаная береговая полоса протянулась на 1,5 км. Особую живописность бухте придают причудливые
+                скалы-кекуры. <br><br>
+                В течение всего дня вас ждут прогулки по берегу вдоль заповедной бухты, во время которых можно
+                устроить фотосессию, снорклинг и купание в море. <br><br>
+                На ночь вы разместитесь на базе отдыха в 250 м от моря.
+              </p>
+              <img src="/img/tours/offroad.png" alt="way by car" class="tour-program_img"><span> 170 км</span>
+              <img src="/img/tours/man-walking.png" alt="way on foot" class="tour-program_img"><span> 5 км</span>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseFive">
+              День 5. Мыс Четырех Скал и залив Владимира
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <p class="tour-program_text text-size">
+                Утром после завтрака вас ждет переезд в Центральное Приморье. По дороге вы увидите живописные горные
+                реки и панорамы Сихотэ-Алиня, заливы Святой Ольги и Владимира.<br><br>
+                Вы совершите прогулку к мысу Четырех Скал — одному из самый красивых в Приморье. Увидите отвесные скалы
+                близ мыса, лежбище нерп, поляны горных цветов и красивую бухту с белыми гранитами.<br><br>
+                На ночевку вы остановитесь в гостинице в поселке Кавалерово. Вечером поужинаете и отдохнете
+                в комфортных условиях.
+              </p>
+              <img src="/img/tours/offroad.png" alt="way by car" class="tour-program_img"><span> 230 км</span>
+              <img src="/img/tours/man-walking.png" alt="way on foot" class="tour-program_img"><span> 3 км</span>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseSix">
+              День 6. Кекуры бухты Дубовой
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <p class="tour-program_text text-size">
+                Сегодня вас ждет треккинговый маршрут в бухту Дубовая к самым красивым в России абразионным формам
+                рельефа — кекурам Носорог и Голова. Маршрут проходит по мысам и пляжам, в пути вы сможете сделать
+                великолепные кадры и искупаться в море<br><br>
+                Затем состоится трансфер в поселок Терней, находящийся в центре Сихоте-Алинского заповедника. Вы
+                разместитесь на
+                туристической базе и проведете ночь в комфортных условиях.
+              </p>
+              <img src="/img/tours/offroad.png" alt="way by car" class="tour-program_img"><span> 350 км</span>
+              <img src="/img/tours/man-walking.png" alt="way on foot" class="tour-program_img"><span> 7 км</span>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseSeven">
+              День 7. Прогулка на джипах и треккинг в заказник «Горалий»
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <p class="tour-program_text text-size">
+                В первой половине дня вы доберетесь на джипах до удаленного и малопосещаемого зоологического
+                заказника «Горалий».<br><br>
+                После обеда вас ждет треккинг по окрестным мысам и заповедным бухтам заказника — местам обитания
+                краснокнижного амурского горала. Вы повторите маршрут экспедиции Владимира Арсеньева, увидите
+                девственный
+                берег, кекуры, скалы и красивые бухты. К вечеру вы вернетесь на базу, поужинаете и отдохнете.
+              </p>
+              <img src="/img/tours/offroad.png" alt="way by car" class="tour-program_img"><span> 70 км</span>
+              <img src="/img/tours/man-walking.png" alt="way on foot" class="tour-program_img"><span> 7 км</span>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseEight">
+              День 8. Восхождение на гору Лысую
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <p class="tour-program_text text-size">
+                Сегодня вас ждет треккинг по охранной зоне Сихотэ-Алинского заповедника и подъем на одну из вершин
+                Сихотэ-Алиня — гору Лысую высотой около 900 м. Тропа идет сначала по берегу ручья с гигантским камнями и
+                небольшими водопадами, а затем углубляется в лес, где дубы по мере набора высоты сменяются вековыми
+                кедрами. <br><br>
+                С вершины открывается вид на горный массив Сихотэ-Алинь и Японское море: лагунные озера и мысы, голубые
+                горы, долины рек и синее море. На маршруте вы увидите реликтовые растения уссурийской тайги, также можно
+                встретить хищных птиц, изюбрей и кабанов. После окончания треккинга вы вернетесь на базу в Тернее.
+              </p>
+              <img src="/img/tours/offroad.png" alt="way by car" class="tour-program_img"><span> 34 км</span>
+              <img src="/img/tours/man-walking.png" alt="way on foot" class="tour-program_img"><span> 16 км</span>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseNine" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseNine">
+              День 9. Треккинг на мыс Северный
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseNine" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <p class="tour-program_text text-size">
+                Сегодня с утра вас ждет треккинг на мыс Северный по экотропе Сихотэ-Алинского заповедника. Маршрут
+                дает возможность поближе познакомиться с флорой и фауной побережья Японского моря. <br><br>
+                Вы пройдете по приморской террасе через живописные дубняки и заболоченные луга, где обитают пятнистые
+                олени и кабаны. На маршруте установлены подкормочные площадки и вышки для наблюдения за этими животными.
+                Здесь также встречается редкое растение, занесенное в Красную Книгу Приморского края — эдельвейс
+                Палибина.
+                <br><br>
+                На высоком берегу мыса расположена смотровая площадка, с которой открывается великолепный вид на крутые
+                скалы у моря. На прибрежных рифах под самым берегом находится лежбище пятнистых тюленей Ларга. Вы
+                сможете
+                в бинокль понаблюдать за тем, как эти очаровательные животные греются на камнях, плавают, а также
+                услышать,
+                как они «общаются» между собой. <br><br>
+                Далее вы спуститесь к бухте Удобная, и прогуляетесь по узкой галечной косе. С одной стороне ее
+                ограничивает Благодатное озеро, а с другой — бухта. Вы отдохнете на песчаном пляже и при желании
+                искупаетесь. <br><br>
+                Вечером вы вернетесь на базу в поселке Терней, поужинаете и отдохнете.
+              </p>
+              <img src="/img/tours/offroad.png" alt="way by car" class="tour-program_img"><span> 37 км</span>
+              <img src="/img/tours/man-walking.png" alt="way on foot" class="tour-program_img"><span> 6 км</span>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseTen" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseTen">
+              День 10. Озера Благодатное и Голубичное
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTen" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <p class="tour-program_text text-size">
+                Вы отправитесь в треккинговый маршрут вглубь Сихотэ-Алинского заповедника. Увидите бухту Удобную,
+                палеолагунное озеро Благодатное — место обитания многих водоплавающих птиц, Горальи скалы с прекрасным
+                видом на морское побережье и палеовулкан Верблюд.<br><br>
+                В бухте Голубичной вы остановитесь, чтобы искупаться, после чего пообедаете в избушке на берегу моря.
+                Обратный путь пройдет по берегу озера Голубичное с множеством реликтовый водных растений. В этих местах
+                обитает большая популяция редкого маньчжурского пятнистого оленя. Также здесь часто можно увидеть
+                изюбрей,
+                кабанов, орланов, чомг, морских птиц, реже — рысей, медведей, горалов, волков и уток-мандаринок.
+              </p>
+              <img src="/img/tours/offroad.png" alt="way by car" class="tour-program_img"><span> 36 км</span>
+              <img src="/img/tours/man-walking.png" alt="way on foot" class="tour-program_img"><span> 15 км</span>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+               data-bs-target="#panelsStayOpen-collapseEleven" aria-expanded="false"
+               aria-controls="panelsStayOpen-collapseEleven">
+              День 11. Переезд по западному Приморью во Владивосток
+            </a>
+          </h2>
+          <div id="panelsStayOpen-collapseEleven" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <p class="tour-program_text text-size">
+                Сегодня вы преодолеете большое расстояние по Центральному Приморью на машинах и посетите места
+                экспедиций Владимира Арсеньева. Полюбуетесь живописными видами Западного Сихотэ-Алиня, увидите реки
+                Ли-Фудзин и Даубихе, озеро с лотосами, заедете посмотреть памятник Дерсу Узала в Арсеньеве. Затем вы
+                преодолеете перевал Венюкова (осевой хребет Сихотэ-Алиня) и увидите реку Уссури — самую большую в
+                Приморье. <br><br>
+                По пути вы сделаете небольшую остановку на таежном развале в селе Анучино, где можно будет купить
+                сувениры. Во Владивостоке вас отвезут в гостиницу, которую нужно будет оплатить дополнительно.
+              </p>
+              <img src="/img/tours/offroad.png" alt="way by car" class="tour-program_img"><span> 650 км км</span>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+               data-bs-target="#panelsStayOpen-collapseTwelve" aria-expanded="false"
+               aria-controls="panelsStayOpen-collapseTwelve">
+              День 12. Возвращение домой
+            </a>
+          </h2>
+          <div id="panelsStayOpen-collapseTwelve" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <p class="tour-program_text text-size">
+                После завтрака в гостинице вы на аэроэкспрессе доберетесь до аэропорта Владивостока,
+                откуда отправитесь домой. <br><br>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Галерея фотографий тура -->
+  <div class="tour-gallery section-bg">
+    <h2 class="tour-gallery_title title-font title-size">Галерея тура</h2>
+    <div class="tour-gallery_wrap">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                  aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                  aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/img/tours/gallery_primorye1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/tours/gallery_primorye2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/tours/gallery_primorye3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/tours/gallery_primorye4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/tours/gallery_primorye5.jpg" class="d-block w-100" alt="...">
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Условия тура -->
+  <div class="tour-conditions">
+    <div class="tour-conditions_row row">
+      <div class="col-xs-12 col-md-6  col-xl-6">
+        <div class="tour-conditions_left">
+          <h5 class="tour-conditions_title title-font">Включено в стоимость</h5>
+          <ul>
+            <li class="tour-conditions_item text-size">Размещение в гостиницах/турбазах по программе тура;</li>
+            <li class="tour-conditions_item text-size">Экскурсии по программе с профессиональными гидами и
+              квалифицированными водителями;
+            </li>
+            <li class="tour-conditions_item text-size">Питание: все завтраки (кроме 1 и 12 дней), 4 обеда, 5 ужинов;
+            </li>
+            <li class="tour-conditions_item text-size">Пропуски в национальные парки и заповедники;</li>
+            <li class="tour-conditions_item text-size">Аренда группового туристического снаряжения;</li>
+            <li class="tour-conditions_item text-size">Аренда спутникового телефона на время прохождения маршрута (у
+              гида);
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6  col-xl-6">
+        <div class="tour-conditions_right">
+          <h5 class="tour-conditions_title title-font">Не включено в стоимость</h5>
+          <ul>
+            <li class="tour-conditions_item text-size">Билеты до точки старта и обратно;</li>
+            <li class="tour-conditions_item text-size">Медицинская страховка от несчастного случая;</li>
+            <li class="tour-conditions_item text-size">Проживание во Владивостоке накануне тура и в 11 день;</li>
+            <li class="tour-conditions_item text-size">Питание: завтраки в 1 и 12 дни, 7 обедов, 6 ужинов;</li>
+            <li class="tour-conditions_item text-size">Личные расходы.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Дополнительная информация -->
+  <div class="tour-additional container-fluid section-bg">
+    <h2 class="tour-additional_title">Важно знать</h2>
+    <div class="tour-additional_wrap">
+      <div class="accordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#tour-additional_One" aria-expanded="false"
+                    aria-controls="tour-additional_One">
+              Что взять с собой
+            </button>
+          </h2>
+          <div id="tour-additional_One" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <div class="tour-additional_text text-size">
+                Одежду и обувь:<br>
+                <ul>
+                  <li>ветро- и влагозащитный костюм (куртку и брюки, желательно мембранные)</li>
+                  <li>треккинговые брюки</li>
+                  <li>футболку с длинным рукавом</li>
+                  <li>шорты и футболку (летние заезды)</li>
+                  <li>комплект одежды для сна</li>
+                  <li>жилет или теплую куртку для вечера</li>
+                  <li>треккинговые ботинки, желательно мембранные (для легкого или среднего треккинга)</li>
+                  <li>обувь на смену (треккинговые кроссовки/сандалии)</li>
+                  <li>неопреновые носки или тапочки для купания в море и перехода рек вброд</li>
+                  <li>купальный костюм</li>
+                  <li>плотный дождевик (если куртка/ветровка промокают от дождя)</li>
+                </ul>
+                Личные вещи и снаряжение: <br>
+                <ul>
+                  <li>небольшой рюкзак (10-20 л) + основной рюкзак/сумка для вещей</li>
+                  <li>спальник</li>
+                  <li>непромокаемую накидку на рюкзак</li>
+                  <li>налобный фонарь (с запасными батарейками)</li>
+                  <li>треккинговые палки</li>
+                  <li>индивидуальную аптечку (личные лекарства)</li>
+                  <li>средства личной гигиены и антисептический гель для рук</li>
+                  <li>обувь на смену (треккинговые кроссовки/сандалии)</li>
+                  <li>емкость для воды (не менее 1 литра), осенью — термос</li>
+                  <li>средство от клещей (летом)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#tour-additional_Two" aria-expanded="false"
+                    aria-controls="tour-additional_Two">
+              Могу ли я участвовать
+            </button>
+          </h2>
+          <div id="tour-additional_Two" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <div class="tour-additional_text text-size">
+                Сложность маршрутов средняя. Участвовать могут люди с нормальной физической формой и
+                отсутствием медицинских противопоказаний. Путешествие включает пешие переходы, подъем на горы
+                с перепадом высот 900 м. <br><br>
+                Рекомендуем перед поездкой заняться физической подготовкой (фитнес, бег, тренажерный зал,
+                кардионагрузки). Это поможет вам максимально комфортно чувствовать себя во время треккинга и при
+                подъемах в гору.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#tour-additional_Three" aria-expanded="false"
+                    aria-controls="tour-additional_Three">
+              Кто будет сопровождать меня в путешествии
+            </button>
+          </h2>
+          <div id="tour-additional_Three" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <div class="tour-additional_text  text-size">
+                С группой до 16 человек работают 3 водителя/гида, которые обеспечивают вашу безопасность на маршруте.
+                Один гид идет впереди, другой замыкает группу. <br><br>
+                Гиды умеют оказывать первую помощь, а также имеют большой опыт пребывания в таежных, горных и иных
+                природных условиях, хорошо знают все местные тропы и объяснят вам правила поведения при встрече с дикими
+                животными. По любым вопросам на маршруте вы можете обращаться к ним.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#tour-additional_Four" aria-expanded="false"
+                    aria-controls="tour-additional_Four">
+              Профилактика клещевого энцефалита
+            </button>
+          </h2>
+          <div id="tour-additional_Four" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <div class="tour-additional_text text-size">
+                Приморье относится к регионам с повышенным риском распространения клещевого энцефалита. Для вашей
+                безопасности на маршруте необходимо пройти вакцинацию. Это обязательное условие участия в туре.
+                <br><br>
+                Полный курс состоит из трех доз вакцины. Первая вводится минимум за 45 дней до путешествия. Вторая
+                — через месяц после первой. Третья — через 12 месяцев после второй. Такая схема гарантирует защиту от
+                заболевания до трех лет. Далее вам нужно каждые три года однократно вводить вакцину для поддержания
+                иммунитета. Сделать прививку можно в поликлинике или в частном медицинском учреждении, имеющем лицензию
+                на этот вид деятельности. <br><br>
+                Если вы не планировали поездку заранее, можно использовать вариант с двумя дозами вакцины — как
+                правило, для формирования иммунитета этого достаточно. В таком случае первая должна быть введена
+                минимум за 21 день до поездки, а вторая — через 7 дней после первой.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Заявка на бронирование тура -->
+  <div class="tour-booking section" id="booking">
+    <div class="tour-booking_wrap wrap">
+      <div class="tour-booking_container container">
+
+        <h2 class="tour-booking_title">Бронирование тура</h2>
+
+        <div class="tour-booking_info container-flex">
+
+
+          <div class="tour-booking_form-container">
+            <form class="tour-booking_form">
+
+              <div class="tour-booking_input-box">
+                <label class="tour-booking_input-label text-size" for="tour-booking_input_name">Ваше имя</label>
+                <input type="text" class="tour-booking_input-value text-size" id="tour-booking_input_name" required>
+              </div>
+              <div class="tour-booking_input-box">
+                <label class="tour-booking_input-label text-size" for="tour-booking_input_phone">Ваш номер
+                  телефона</label>
+                <input type="tel" class="tour-booking_input-value text-size" id="tour-booking_input_phone"
+                       placeholder="+7 (___) ___-__-__" required>
+              </div>
+              <div class="tour-booking_input-box">
+                <label class="tour-booking_input-label text-size" for="tour-booking_input_email">Ваш e-mail</label>
+                <input type="email" class="tour-booking_input-value text-size" id="tour-booking_input_email"
+                       placeholder="name@example.com" required>
+              </div>
+              <div class="tour-booking_input-box">
+                <label class="tour-booking_input-label text-size" for="tour-booking_input_dates">Даты
+                  путешествия</label>
+                <div class="tour-booking_select-wrap">
+                  <select class="tour-booking_input-value text-size tour-booking_select" name="tour-booking_dates"
+                          id="tour-booking_input_dates" required>
+                    <option value="">Выберите даты</option>
+                    <option value="1">31 июл 2023 — 11 авг 2023 - 130.000 руб./чел.</option>
+                    <option value="2">23 авг 2023 — 3 сен 2023- 130.000 руб./чел.</option>
+                    <option value="3">19 сен 2023 — 30 сен 2023 - 130.000 руб./чел.</option>
+                    <option value="4">2 окт 2023 — 13 окт 2023 - 130.000 руб./чел.</option>
+                  </select>
+                </div>
+              </div>
+              <div class="tour-booking_input-box">
+                <label class="tour-booking_input-label text-size" for="tour-booking_input_people">Количество
+                  человек</label>
+                <input type="number" class="tour-booking_input-value text-size tour-booking_people_value"
+                       id="tour-booking_input_people" min="1" max="16">
+              </div>
+              <div class="tour-booking_input-box">
+                <label class="tour-booking_input-label text-size" for="tour-booking_input_comment">Комментарии</label>
+                <textarea rows="3" type="text" class="tour-booking_input-value text-size"
+                          id="tour-booking_input_comment"></textarea>
+              </div>
+            </form>
+            <button class="tour-booking_btn"><span>Забронировать</span></button>
+          </div>
+
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+</main>
+
+
+<!-- Контакты -->
+<footer class="footer section section-bg">
+  <div class="footer_wrap wrap">
+    <div class="row">
+      <div class="col-xs-12 col-md-6 col-xl-3">
+        <div class="footer_first">
+          <a href="../index.html"><img src="../img/logo.png" alt="company logo" class="footer_logo"></a>
+          <p class="footer_copyright">&#169 Туристическая компания "EastWay"</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6 col-xl-3">
+        <div class="contacts_second">
+          <ul>
+            <li><a href="../about-us.html" class="footer_link">О компании</a></li>
+            <li><a href="../about-us.html#reviews" class="footer_link">Отзывы клиентов</a></li>
+            <li><a href="../contacts.html" class="footer_link">Контакты</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6 col-xl-3">
+        <div class="footer_third">
+          <ul>
+            <li><a href="../catalog.html" class="footer_link">Туры</a></li>
+            <li><a href="#" class="footer_link">Вопрос-ответ</a></li>
+            <li><a href="#" class="footer_link">Бронирование и оплата</a></li>
+            <li><a href="#" class="footer_link">Политика конфиденциальности</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6 col-xl-3">
+        <div class="footer_fourth">
+          <div class="footer_contacts">
+            <span>Телефон: </span>+7 (111) 111 1111
+            <br>
+            <span>E-mail:</span> eastway@gmail.com
+            <br>
+            <span>Whatsapp:</span> +7 (111) 111 1111
+            <br>
+            <span>Адрес:</span> Приморский край, г.Владивосток, ул.Светланская, 29
+          </div>
+          <a href="#"><img src="../img/telegram_logo.png" alt=" " class="footer_social"></a>
+          <a href="#"><img src="../img/vk_logo.png" alt=" " class="footer_social"></a>
+          <a href="#"><img src="../img/youtube_logo.png" alt=" " class="footer_social"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="../js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="../js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

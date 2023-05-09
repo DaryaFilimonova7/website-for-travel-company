@@ -1,0 +1,264 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EastWay</title>
+  <link rel="icon" href="img/hiking_1.png">
+
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Подключение библиотеки шрифтов Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@500&family=Montserrat&family=Righteous&display=swap"
+        rel="stylesheet">
+  <!-- Подключение стилей Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+
+
+<body>
+<!-- Навигация-->
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container">
+    <div class="navbar-brand"><h1 class="logo">EastWay</h1></div>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="menu ml-auto"><img src="img/menu.png" alt="Menu"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link current" aria-current="page" href="index.html">Главная</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about-us.html">О нас</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+             aria-expanded="false">
+            Туры
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Якутия</a></li>
+            <li><a class="dropdown-item" href="#">Бурятия</a></li>
+            <li><a class="dropdown-item" href="#">Камчатка</a></li>
+            <li><a class="dropdown-item" href="#">Сахалин</a></li>
+            <li><a class="dropdown-item" href="#">Чукотка</a></li>
+            <li><a class="dropdown-item" href="#">Приморский край</a></li>
+            <li><a class="dropdown-item" href="#">Забайкальский край</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="catalog.html">Все туры</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacts.html">Контакты</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<main class="home-page">
+
+  <!-- Приветственный блок -->
+  <div class="welcome-section">
+    <div class="welcome-section_container">
+      <h1 class="welcome-section_title fw-bold title-font">Туры на Дальний Восток</h1>
+      <p class="welcome-section_subtitle">откройтесь новому</p>
+      <button class="welcome-section_button" onclick="location.href='catalog.html'"><span>В путь</span></button>
+    </div>
+  </div>
+
+  <!-- Блок о компании -->
+  <div class="home-about-us container-fluid">
+    <div class="row">
+      <div class="col-md-9 col-xl-6">
+        <div class="home-about-us-content">
+          <h1 class="home-about-us_title title-font title-size">Туристическое агентство <span class="home-about-us_title_color">EastWay</span>
+          </h1>
+          <p class="home-about-us_text text-size">Профессионально влюбляем в Дальний Восток с 2013 года. За годы работы нам
+            удалось
+            создать множество увлекательных маршрутов с
+            прекраснейшими видами природы региона.<br><br> Безопасность и комфорт гостей - наш
+            приоритет. Наша команда включает внимательных
+            менеджеров, профессиональных экскурсоводов и гидов. <br></p>
+        </div>
+      </div>
+      <div class="col-md-0 col-xl-6">
+        <div class="container home-about-us-image">
+          <img class="img-fluid d-none d-lg-block" alt="" src="img/map1.png">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Блок популярных туров-->
+  <div class="popular-tours container-fluid section-bg">
+
+    <h2 class="popular-tours_title title-font title-size">Популярные туры</h2>
+
+    <div class="popular-tours_list">
+      <div class="popular-tours_wrap wrap">
+        <div class="popular-tours_card">
+          <a href="tour-pages/primorye-around-the-world.html">
+            <img src="/img/main-prim-kr.jpg" alt="" class="popular-tours_img  img-fluid">
+            <div class="container popular-tours_content">
+              <h3 class="popular-tours_head title-font">Приморская кругосветка</h3>
+              <p class="popular-tours_text">Посетить живописные мысы и бухты, послушать шум прибоя и познакомиться с
+                богатым миром уссурийской тайги. </p>
+              <p class="popular-tours_difficulty">Повышенная сложность</p>
+              <p class="popular-tours_days">12 дней</p>
+              <div class="popular-tours_footer">
+                <p class="tours_cost">от 125 000 ₽</p>
+                <a href="tour-pages/primorye-around-the-world.html" class="tours_button"><img src="/img/right-arrow.png"
+                                                                                              alt=" "></a>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="popular-tours_card">
+          <a href="#">
+            <img src="/img/main-prim-kr.jpg" alt="" class="popular-tours_img  img-fluid">
+            <div class="container popular-tours_content">
+              <h3 class="popular-tours_head title-font">Приморская кругосветка</h3>
+              <p class="popular-tours_text">Посетить живописные мысы и бухты, послушать шум прибоя и познакомиться с
+                богатым миром уссурийской тайги. </p>
+              <p class="popular-tours_difficulty">Повышенная сложность</p>
+              <p class="popular-tours_days">12 дней</p>
+              <div class="popular-tours_footer">
+                <p class="tours_cost">от 125 000 ₽</p>
+                <a href="#" class="tours_button"><img src="/img/right-arrow.png" alt=" "></a>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="popular-tours_card">
+          <a href="#">
+            <img src="/img/main-prim-kr.jpg" alt="" class="popular-tours_img  img-fluid">
+            <div class="container popular-tours_content">
+              <h3 class="popular-tours_head title-font">Приморская кругосветка</h3>
+              <p class="popular-tours_text">Посетить живописные мысы и бухты, послушать шум прибоя и познакомиться с
+                богатым миром уссурийской тайги. </p>
+              <p class="popular-tours_difficulty">Повышенная сложность</p>
+              <p class="popular-tours_days">12 дней</p>
+              <div class="popular-tours_footer">
+                <p class="tours_cost">от 125 000 ₽</p>
+                <a href="#" class="tours_button"><img src="/img/right-arrow.png" alt=" "></a>
+              </div>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Ссылка на каталог -->
+  <div class="link-tours section-bg ">
+    <div class="link-tours_wrap">
+      <div class="link-tours_container container">
+        <div class="row">
+          <div class="col">
+            <h2 class="link-tours_title title-font">Отправьтесь на край света вместе с нами</h2>
+            <button class="link-tours_button" onclick="location.href='catalog.html'"><span>Выбрать тур</span></button>
+          </div>
+          <div class="col d-none d-lg-block">
+
+            <div class="row">
+              <div class="col-7">
+                <div class="link-tours_img_container">
+                  <img class="link-tours_image_1 img-fluid" src="/img/about/tourist_1.jpg" alt="">
+                </div>
+              </div>
+              <div class="col">
+                <div class="link-tours_img_container" style="margin-bottom: 10px;">
+                  <img class="link-tours_image_2 img-fluid" src="/img/about/tourist_2.jpg" alt="">
+                </div>
+                <div class="link-tours_img_container">
+                  <img class="link-tours_image_2 img-fluid" src="/img/about/tourist_3.jpg" alt="">
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<!-- Контакты -->
+<footer class="footer section-bg">
+  <div class="footer_wrap wrap">
+    <div class="row">
+      <div class="col-xs-12 col-md-6 col-xl-3">
+        <div class="footer_first">
+          <a href="index.html"><img src="img/logo.png" alt="company logo" class="footer_logo"></a>
+          <p class="footer_copyright">&#169 Туристическая компания "EastWay"</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6 col-xl-3">
+        <div class="contacts_second">
+          <ul>
+            <li><a href="about-us.html" class="footer_link">О компании</a></li>
+            <li><a href="about-us.html#reviews" class="footer_link">Отзывы клиентов</a></li>
+            <li><a href="contacts.html" class="footer_link">Контакты</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6 col-xl-3">
+        <div class="footer_third">
+          <ul>
+            <li><a href="catalog.html" class="footer_link">Туры</a></li>
+            <li><a href="#" class="footer_link">Вопрос-ответ</a></li>
+            <li><a href="#" class="footer_link">Бронирование и оплата</a></li>
+            <li><a href="#" class="footer_link">Политика конфиденциальности</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6 col-xl-3">
+        <div class="footer_fourth">
+          <div class="footer_contacts">
+            <span>Телефон: </span>+7 (111) 111 1111
+            <br>
+            <span>E-mail:</span> eastway@gmail.com
+            <br>
+            <span>Whatsapp:</span> +7 (111) 111 1111
+            <br>
+            <span>Адрес:</span> Приморский край, г.Владивосток, ул.Светланская, 29
+          </div>
+          <a href="#"><img src="img/telegram_logo.png" alt=" " class="footer_social"></a>
+          <a href="#"><img src="img/vk_logo.png" alt=" " class="footer_social"></a>
+          <a href="#"><img src="img/youtube_logo.png" alt=" " class="footer_social"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
