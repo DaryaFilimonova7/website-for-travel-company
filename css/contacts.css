@@ -1,0 +1,29 @@
+.contacts_main {
+  margin-bottom: 50px;
+}
+.contacts-title {
+  margin-bottom: 30px;
+}
+.contacts_label {
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.contacts_col {
+  padding: 15px;
+}
+.contacts_social {
+  margin-bottom: 60px;
+}
+.contacts_map {
+   margin-bottom: 50px;
+}
+
+/* Планшеты и мобильные устройства */
+@media screen and  (max-width: 768px) {
+  .contacts_main {
+    margin-bottom: 30px;
+  }
+  .contacts_map {
+   margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,178 @@
+/* Общая информация */
+.about-us_company {
+  padding: 0 30px;
+  margin-bottom: 100px;
+}
+.about-us_company_bg {
+  position: relative;
+  padding: 32px 0;
+  border-radius: 16px;
+  overflow: hidden;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("/img/about/header-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: auto;
+}
+.about-us_company_content {
+  position: relative;
+  z-index: 3;
+  padding: 50px 0;
+  color: #f0eff3;
+}
+.about-us_company_content_title {
+  margin-bottom: 10px;
+}
+.about-us_company_content_text {
+  padding-bottom: 20px;
+  line-height: 30px;
+}
+.about-us_company_content_value {
+  font-size: 44px;
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+}
+.about-us_company_content_label {
+  font-weight: 700;
+}
+/* Преимущества */
+.about-us_benefits {
+  margin-bottom: 140px;
+}
+.about-us_title {
+  margin-bottom: 20px;
+}
+.about-us_benefits_content ul {
+  padding-left: 2rem;
+  list-style-type: none;
+}
+.about-us_benefits_content li {
+  padding-left: 3rem;
+  background-image: url(/img/about/icons8-star.png);
+  background-position: 0 center;
+  background-size: 2.5rem 2.5rem;
+  background-repeat: no-repeat;
+}
+.about-us_benefits_item {
+  font-size: 23px;
+  margin-bottom: 53px;
+}
+
+
+/* Слово основателя компании */
+.about-us_founder {
+  margin-bottom: 95px;
+}
+
+.about-us_founder_right {
+  padding-top: 50px;
+}
+
+.about-us_founder_left {
+  padding-right: 50px
+}
+
+.about-us_founder_img_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-us_founder_image {
+  width: auto;
+  border-radius: 20px;
+}
+
+.about-us_founder_text {
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.about-us_founder_name {
+  font-size: 21px;
+  font-weight: bold;
+  color: #0C211C;
+}
+
+.about-us_founder_info {
+  font-size: 14px;
+  color: #555555;
+}
+
+
+/* Отзывы путешественников */
+.about-us_review {
+  margin-bottom: 100px;
+}
+.about-us_review_col {
+  padding: 2px;
+}
+.about-us_review_card {
+  padding: 15px;
+  border: 1px solid #555555;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+.about-us_review_card_text {
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+.about-us_review_card_author {
+  font-size: 17px;
+}
+.about-us_review_card_author a {
+  color: #143a31;
+  font-weight: 600;
+}
+.about-us_review_card_author a:hover, .about-us_review_card_author a:focus {
+  color: #968246;
+  font-weight: 600;
+}
+
+
+
+
+/* Планшеты и мобильные устройства */
+@media screen and  (max-width: 768px) {
+  .about-us_company_content_title {
+    font-size: 20px;
+  }
+  .about-us_company_content_text {
+    line-height: 25px;
+  }
+
+  .about-us_company_content_value {
+    text-align: center;
+    font-size: 34px;
+  }
+
+  .about-us_company_content_label {
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .about-us_benefits_item {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .about-us_founder_text {
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+
+  .about-us_review {
+    margin-bottom: 50px;
+  }
+  .about-us_review_card {
+    padding: 10px;
+  }
+  .about-us_review_card_text {
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .about-us_review_card_author {
+    font-size: 15px;
+  }
+
+}
+
+

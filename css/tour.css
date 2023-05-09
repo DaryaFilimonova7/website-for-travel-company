@@ -1,0 +1,379 @@
+
+/*  Заголовок  */
+.tour-header {
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)), url("/img/tours/prim-kr.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height:100vh;
+  background-size: cover;
+}
+.tour-header_container {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.tour-header_title {
+  margin-top: 35vh;
+  text-align: center;
+  font-size: calc(40px + 3vw);
+  color:#f2f2f2;
+  font-family: 'Exo 2', sans-serif;
+}
+.tour-header_button {
+  align-self: center;
+  width: 230px;
+  background: #968246;
+  padding: 15px;
+  margin-top: 17px;
+  transition: 0.2s;
+  border: none;
+  border-radius: 2em;
+  box-shadow:  4px 4px 15px #000000;
+
+}
+.tour-header_button span {
+  color: white;
+  font-size: 19px;
+}
+.tour-header_button:focus, .tour-header_button:hover {
+  background: #DDC67F;
+}
+
+/*  Краткое описание тура  */
+.short-description {
+  background-color: #0C211C;
+  color:#f2f2f2;
+  padding: 40px 0 55px 0;
+}
+.short-description_row {
+  padding: 0 80px;
+}
+.short-description_left {
+  justify-content: center;
+}
+.short-description_right {
+  justify-content: center;
+  padding-left: 0;
+}
+.short-description_title {
+  padding-top: 25px;
+  font-size: 35px;
+}
+.short-description ul {
+  padding-left: 0;
+}
+.short-description li {
+  margin-bottom: 5px;
+  list-style-type: none;
+}
+.short-description_link {
+  color: #968246;
+  font-size: 12px;
+}
+
+/*  Описание тура   */
+.description {
+  padding-bottom: 30px;
+}
+.description_container {
+  padding: 50px;
+}
+.description_right {
+  align-items: center;
+  padding: 70px 50px 100px 20px;
+}
+
+.description_left {
+  padding: 20px 10px 20px 0;
+}
+.description_text {
+  margin-top: 10px;
+  font-size: 17px;
+}
+.description_img_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.description_image {
+  width: 370px;
+  border-radius: 30px;
+}
+
+/*  Программа тура  */
+.tour-program {
+  flex-direction: column;
+  align-items: center;
+  padding-top: 17px;
+  padding-bottom: 20px;
+}
+.tour-program_title {
+  text-align: center;
+}
+.tour-program_wrap {
+  padding: 20px 30px 20px  30px;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+.accordion {
+  --bs-accordion-bg:  #f0eff3 !important;
+  --bs-accordion-active-color: none !important;
+  --bs-accordion-active-bg: none !important;
+  --bs-accordion-btn-focus-box-shadow: none !important;
+}
+.accordion-button {
+  background-color:  #f0eff3 !important;
+}
+.tour_accordion-button:focus, .accordion-button:hover,  .tour_accordion-button:active {
+  background: linear-gradient(200deg,#bdb06e, #DDC67F 94%);
+  border: none;
+  color: #0a0a0a !important;
+  box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+  background: linear-gradient(200deg,#bdb06e, #DDC67F 94%);
+  color: #0a0a0a !important;
+}
+.tour-program_text {
+  padding: 20px;
+}
+.tour-program_img {
+  padding-left: 20px;
+  width: 45px;
+}
+
+/* Галерея фотографий тура */
+.tour-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 14px;
+  padding-bottom: 45px;
+}
+.tour-gallery_title {
+  text-align: center;
+}
+.tour-gallery_wrap {
+  padding: 20px 40px 20px  40px;
+}
+.carousel-item img {
+  object-fit: cover;
+}
+
+/* Условия тура */
+.tour-conditions {
+  background-color: #0C211C;
+  color:#f2f2f2;
+  padding: 30px 50px 55px 50px;
+}
+.tour-conditions_left .tour-conditions_right {
+  justify-content: center;
+
+}
+.tour-conditions_left {
+  padding-right: 20px;
+}
+.tour-conditions_right {
+  padding-right: 20px;
+}
+.tour-conditions_title {
+  padding-top: 15px;
+  font-size: 30px;
+  text-align: center;
+}
+.tour-conditions_item {
+  padding-top: 5px;
+}
+.tour-conditions ul {
+  padding-left: 2rem;
+  list-style-type: none;
+}
+.tour-conditions_right li{
+  padding-left: 2rem;
+  background-image: url(/img/tours/minus.png);
+  background-position: 0 center;
+  background-size: 0.8rem 1rem;
+  background-repeat: no-repeat;
+}
+.tour-conditions_left li{
+  padding-left: 2rem;
+  background-image: url(/img/tours/plus.png);
+  background-position: 0 center;
+  background-size: 0.8rem 0.8rem;
+  background-repeat: no-repeat;
+}
+
+/* Дополнительная информация */
+.tour-additional {
+  flex-direction: column;
+  align-items: center;
+  padding-top: 17px;
+  padding-bottom: 20px;
+}
+.tour-additional_title {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 30px;
+}
+.tour-additional_wrap {
+  padding: 20px 30px 60px  30px;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+.tour-additional_text  {
+  padding: 15px;
+}
+.tour-additional_text ul {
+  padding-top: 5px;
+  list-style-type: circle;
+}
+
+
+/* Заявка на бронирование тура */
+.tour-booking {
+  background:#0C211C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tour-booking_wrap {
+  padding: 0 20px 20px 20px;
+  width: 100%;
+}
+.tour-booking_container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 20px 20px 20px;
+  background-color: #0C211C;
+  flex-direction: column;
+}
+.tour-booking_title {
+  font-family: 'Exo 2', sans-serif;
+  color:#f2f2f2;
+  font-size: 38px;
+  padding: 15px 0 18px 0;
+  text-align: center;
+}
+.tour-booking_info {
+  margin-bottom: 25px;
+}
+.tour-booking_form-container {
+  border-radius: 15px;
+  background-color: #f0eff3;
+  padding: 20px;
+}
+.tour-booking_input-box {
+  margin-bottom: 18px;
+}
+.tour-booking_input-label {
+  padding: 14px 0 10px 10px;
+}
+.tour-booking_input-value {
+  display: block;
+  width: 95%;
+  padding: 0.375rem 0.75rem;
+
+  font-weight: 400;
+  line-height: 1.5;
+  box-shadow: inset -4px -4px 4px #f1f0f0, inset 4px 4px 4px #d1d0d2;
+  border: 1px solid #d1d0d2;
+  background-color:  #f0eff3;
+  border-radius: 10px;
+  color: #2a2929;
+  outline-color: #968246;
+}
+.tour-booking_select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  outline-color: #968246;
+  padding: 0.375rem 1rem 0.375rem 0.75rem;
+  cursor: pointer;
+}
+.tour-booking_select:not([multiple]) {
+  padding-right: 1.2em;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 1em) center;
+  background-size: 0.85em auto;
+  background-image: url(/img/tours/select.png);
+}
+.tour-booking_select-wrap::before {
+  position: absolute;
+  content: "";
+  top:50%;
+  right:15px;
+  display: block;
+  width: 10px;
+  height: 10px
+}
+.tour-booking_people_value {
+  width: 90px;
+  text-align: center;
+  margin-left: 0.5rem;
+  margin-right: 0;
+}
+.tour-booking_btn {
+  align-self: start;
+  width: 230px;
+  background: #968246;
+  padding: 15px;
+  margin-top: 17px;
+  transition: 0.2s;
+  border: none;
+  border-radius: 15px;
+}
+.tour-booking_btn span {
+  color: white;
+  font-size: 19px;
+}
+.tour-booking_btn:focus, .tour-booking_btn:hover {
+  background: #DDC67F;
+}
+
+
+
+
+
+
+@media (min-width: 769px)  {
+  .tour-program_wrap {
+    padding: 20px 120px 20px  120px;
+  }
+  .carousel {
+    width: 750px;
+  }
+  .carousel-item {
+  width: 750px;
+  height: 510px;
+  }
+  .tour-conditions {
+  padding: 30px 100px 55px 100px;
+  }
+  .tour-conditions_item {
+    padding-top: 10px;
+    font-size: 18px;
+  }
+  .tour-additional_wrap {
+    padding: 20px 250px 60px  250px;
+  }
+  .description_text {
+    margin-top: 15px;
+    font-size: 21px;
+  }
+}
+
+/* Планшеты и мобильные устройства */
+@media (max-width: 768px) {
+  .short-description_title {
+    font-size: 20px;
+  }
+  .tour-conditions_title {
+    padding-top: 10px;
+    font-size: 22px;
+  }
+  .tour-conditions ul {
+    padding-left: 12px;
+  }
+}

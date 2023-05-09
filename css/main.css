@@ -1,0 +1,418 @@
+
+body {
+  background-color: #f0eff3 !important;
+  font-family: 'Montserrat', sans-serif;
+  color: #0a0a0a;
+
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+
+}
+
+.title-font {
+  font-family: 'Exo 2', sans-serif;
+}
+.title-size {
+  font-size: calc(15px + 2vw);
+}
+.text-size {
+  font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
+}
+.section-bg {
+  background-color: #f0eff3;
+}
+.container {
+   width: 980px;
+  margin: 0 auto;
+}
+
+
+
+/* Навигация */
+.navbar {
+  background-color: #0C211C;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 2px;
+  padding-bottom: 1px;
+}
+.sticky-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.logo {
+  font-family: 'Righteous', cursive;
+  font-size: 27px;
+  color: #CEB364 !important;
+  margin-top: 4px;
+  margin-bottom: 1px;
+}
+.navbar-toggler {
+  margin-top: 2px;
+  margin-bottom: 1px;
+  border: none;
+  background: transparent;
+  box-shadow:  5px 5px 15px #061814,
+             -3px -3px 8px #10332b;
+}
+.nav-link {
+  color:#f2f2f2 !important;
+}
+.menu {
+  background: transparent;
+  border: none;
+}
+.dropdown-toggle {
+  background-color: #0C211C;
+}
+.dropdown-menu a:hover, a:focus, a:active {
+  background: transparent;
+}
+.dropdown-item {
+  color:#f2f2f2;
+}
+.navbar-nav li {
+  padding-right: 20px;
+}
+
+a {
+  text-decoration: none !important;
+  outline: none !important;
+  color: #0a0a0a;
+  background-color: transparent;
+}
+
+.current {
+  color: #CEB364 !important;
+}
+.navbar a:hover, a:active {
+  color: #CEB364 !important;
+}
+
+/* Навигация ("хлебные крошки") */
+.catalog_breadcrumb {
+  padding: 20px 150px;
+}
+.breadcrumb_link {
+  color: #2a2929;
+}
+
+
+/* Приветственный блок */
+.welcome-section {
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)), url("/img/sea_rocks.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height:100vh;
+  background-size: cover;
+}
+
+.welcome-section_container {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.welcome-section_title {
+  align-self: center;
+  text-align: center;
+  font-size: calc(47px + 3vw);
+  color:#f2f2f2;
+  padding-top: 40px;
+}
+.welcome-section_subtitle {
+  align-self: center;
+  font-size: calc(16px + 2vw);
+  color:#f2f2f2;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 0 20px;
+}
+.welcome-section_button {
+  align-self: center;
+  width: 200px;
+  background: #968246;
+  padding: 10px;
+  transition: 0.2s;
+  border: none;
+  border-radius: 2em;
+  box-shadow:  4px 4px 10px #000000;
+
+}
+.welcome-section_button span {
+  color: white;
+  font-size: 22px;
+}
+.welcome-section_button:focus, .welcome-section_button:hover {
+  background: #DDC67F;
+}
+
+
+/* Блок о компании */
+.home-about-us {
+  background-color: #0C211C;
+  color:#f2f2f2;
+  padding-bottom: 30px;
+}
+.home-about-us-content {
+  margin-top: 80px;
+  margin-left: 10vw;
+  margin-right: 9vw;
+}
+.home-about-us_title {
+  margin-bottom: 20px;
+}
+.home-about-us_title_color {
+  color: #CEB364;
+}
+.home-about-us-image {
+  justify-content: center;
+}
+.home-about-us-image img {
+  height: 600px;
+  object-fit: contain;
+  align-self: center;
+  padding-left: 30px;
+}
+
+
+/* Блок популярных туров */
+.popular-tours {
+  flex-direction: column;
+  align-items: center;
+  padding-top: 34px;
+  padding-bottom: 20px;
+}
+.popular-tours_title {
+  text-align: center;
+}
+.popular-tours_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.popular-tours_wrap {
+  display: flex;
+  padding: 20px 30px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.popular-tours_card {
+  position: relative;
+  width: 350px;
+  margin-right: 24px;
+  margin-bottom: 30px;
+  background-color: #f0eff3;
+  transition: 0.3s;
+  border-radius: 10px;
+  height: 540px;
+  padding: 15px;
+}
+.popular-tours_card:hover {
+ box-shadow:  15px 15px 30px #c4c2c8,
+             -15px -15px 30px #f4f3f6;
+}
+.popular-tours_img {
+  border-radius: 10px;
+}
+.popular-tours_content {
+  padding: 15px 16px;
+}
+.popular-tours_head {
+  font-size: 25px;
+  color: #0a0a0a;
+}
+.popular-tours_text {
+  font-size: 15px;
+  margin-bottom: 6px;
+  color: #0a0a0a;
+}
+.popular-tours_difficulty {
+  font-size: 13px;
+  margin-bottom: 0;
+  color: #0a0a0a;
+}
+.popular-tours_days {
+  font-size: 13px;
+  margin-bottom: 10px;
+  color: #0a0a0a;
+}
+.popular-tours_footer {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+.tours_cost {
+  font-size: 20px;
+  position: relative;
+  color: #0a0a0a;
+}
+.tours_button {
+  margin-right: 10px;
+}
+.tours_button img:hover,img:focus {
+  outline: none;
+  text-decoration: none;
+  box-shadow:  2px 2px 6px #c4c2c8;
+  background: linear-gradient(221.29deg,#DDC67F,#F3D89A 94.31%);
+}
+.tours_button img {
+  width: 48px;
+  transition: 0.3s;
+  border-radius: 20px;
+}
+
+
+/* Ссылка на каталог */
+.link-tours {
+  padding: 0 30px;
+  height: auto;
+}
+.link-tours_wrap {
+  border-radius: 15px;
+  background-color: #0C211C;
+}
+.link-tours_container {
+  padding: 50px 0;
+}
+.link-tours_title {
+  color: #c4c3c3;
+  padding-top: 35px;
+  padding-right: 8px;
+  font-size: 35px;
+  margin-bottom: 100px;
+}
+.link-tours_img_container {
+  display: flex;
+  align-items: center;
+}
+.link-tours_image_1 {
+  width: auto;
+  border-radius: 14px;
+}
+.link-tours_image_2 {
+  width: 125px;
+  border-radius: 14px;
+}
+.link-tours_button {
+  width: 230px;
+  background: #0C211C;
+  padding: 15px;
+  transition: 0.3s;
+  border: none;
+  border-radius: 2em;
+  box-shadow:  5px 5px 15px #061814,
+             -3px -3px 10px #10332b;
+}
+.link-tours_button span {
+  color: white;
+  font-size: 18px;
+}
+.link-tours_button:focus, .link-tours_button:hover {
+  background: #968246;
+}
+
+
+/* Контакты */
+.footer {
+  padding: 100px 0 200px 0;
+}
+.footer_wrap {
+  max-width: 100%;
+  padding: 0 40px;
+}
+.footer_first {
+  float: left;
+}
+.footer_logo {
+  width: 100px;
+}
+.footer_copyright {
+  font-size: 14px;
+  color: #575656;
+}
+.footer li {
+  margin-bottom: 10px;
+  list-style-type: none;
+  font-size: 15px;
+}
+.footer a {
+  text-decoration: none;
+  color: #2a2929;
+}
+.footer a:focus, a:hover {
+  color: #575656;
+}
+.footer_contacts {
+  font-size: 14px;
+  padding-top: 18px;
+  padding-bottom: 30px;
+}.footer_contacts span {
+  color: #575656;
+}
+.footer_social {
+  width: 27px;
+  margin-right: 22px;
+}
+
+
+/* Планшеты и мобильные устройства */
+@media (max-width: 768px) {
+  .text-size {
+  font-size:  14px;
+  }
+  .welcome-section_button {
+    width: 150px;
+    padding: 7px;
+  }
+  .welcome-section_button span {
+    font-size: 16px;
+  }
+  .popular-tours_text {
+    font-size: 12px;
+  }
+  .popular-tours_card {
+    box-shadow:  15px 15px 30px #c4c2c8,
+             -15px -15px 30px #f4f3f6;
+    margin-right: 0;
+  }
+  .link-tours_button span {
+    font-size: 14px;
+  }
+  .link-tours_button {
+    width: 180px;
+    background: #0C211C;
+    padding: 8px;
+  }
+  .link-tours_title {
+    font-size: 28px;
+    padding-bottom: 40px;
+  }
+  .popular-tours_head {
+    font-size: 23px;
+  }
+  .link-tours_title {
+    padding-top: 10px;
+    padding-right: 0;
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  .link-tours_button {
+    width: 150px;
+    box-shadow:  3px 3px 10px #061814,
+             -2px -2px 6px #10332b;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 980px !important;
+    margin: 0 auto;
+  }
+}
