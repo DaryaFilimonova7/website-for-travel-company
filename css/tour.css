@@ -112,7 +112,7 @@
   text-align: center;
 }
 .tour-program_wrap {
-  padding: 20px 30px 20px  30px;
+  padding: 20px 0 20px  0;
   width: 100%;
   font-family: 'Montserrat', sans-serif;
 }
@@ -165,22 +165,15 @@
 .tour-conditions {
   background-color: #0C211C;
   color:#f2f2f2;
-  padding: 30px 50px 55px 50px;
+  padding: 30px 0 55px 0;
 }
-.tour-conditions_left .tour-conditions_right {
+.tour-conditions_col {
   justify-content: center;
-
-}
-.tour-conditions_left {
-  padding-right: 20px;
-}
-.tour-conditions_right {
-  padding-right: 20px;
 }
 .tour-conditions_title {
   padding-top: 15px;
   font-size: 30px;
-  text-align: center;
+  padding-left: 64px;
 }
 .tour-conditions_item {
   padding-top: 5px;
@@ -218,7 +211,7 @@
   padding-top: 30px;
 }
 .tour-additional_wrap {
-  padding: 20px 30px 60px  30px;
+  padding: 20px 5px 60px  5px;
   width: 100%;
   font-family: 'Montserrat', sans-serif;
 }
@@ -338,25 +331,19 @@
 
 
 @media (min-width: 769px)  {
-  .tour-program_wrap {
-    padding: 20px 120px 20px  120px;
-  }
-  .carousel {
-    width: 750px;
-  }
   .carousel-item {
   width: 750px;
   height: 510px;
   }
   .tour-conditions {
-  padding: 30px 100px 55px 100px;
+  padding: 30px 0 55px 0;
   }
   .tour-conditions_item {
     padding-top: 10px;
     font-size: 18px;
   }
   .tour-additional_wrap {
-    padding: 20px 250px 60px  250px;
+    padding: 20px 0 60px  0;
   }
   .description_text {
     margin-top: 15px;
@@ -372,6 +359,7 @@
   .tour-conditions_title {
     padding-top: 10px;
     font-size: 22px;
+    padding-left: 20px;
   }
   .tour-conditions ul {
     padding-left: 12px;
