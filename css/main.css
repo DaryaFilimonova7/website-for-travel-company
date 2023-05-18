@@ -102,7 +102,7 @@ a {
 
 /* Приветственный блок */
 .welcome-section {
-  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)), url("/img/sea_rocks.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.55)), url("/img/sea_rocks.jpg");
   background-position: center;
   background-repeat: no-repeat;
   height:100vh;
@@ -119,13 +119,13 @@ a {
 .welcome-section_title {
   align-self: center;
   text-align: center;
-  font-size: calc(47px + 3vw);
+  font-size: calc(36px + 3vw);
   color:#f2f2f2;
   padding-top: 40px;
 }
 .welcome-section_subtitle {
   align-self: center;
-  font-size: calc(16px + 2vw);
+  font-size: calc(12px + 2vw);
   color:#f2f2f2;
   font-family: 'Montserrat', sans-serif;
   margin: 0 0 20px;
@@ -154,12 +154,14 @@ a {
 .home-about-us {
   background-color: #0C211C;
   color:#f2f2f2;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
+}
+.home-about-us col {
+  padding-right: 0;
+  padding-left: 0;
 }
 .home-about-us-content {
-  margin-top: 80px;
-  margin-left: 10vw;
-  margin-right: 9vw;
+  margin-top: 23%;
 }
 .home-about-us_title {
   margin-bottom: 20px;
@@ -168,13 +170,14 @@ a {
   color: #CEB364;
 }
 .home-about-us-image {
+  display: flex;
   justify-content: center;
+  padding: 40px 10px;
 }
 .home-about-us-image img {
-  height: 600px;
+  height: 490px;
   object-fit: contain;
   align-self: center;
-  padding-left: 30px;
 }
 
 
