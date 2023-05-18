@@ -93,7 +93,7 @@ a {
 
 /* Навигация ("хлебные крошки") */
 .catalog_breadcrumb {
-  padding: 20px 150px;
+  padding: 20px 0;
 }
 .breadcrumb_link {
   color: #2a2929;
@@ -369,6 +369,9 @@ a {
 @media (max-width: 768px) {
   .text-size {
   font-size:  14px;
+  }
+  .catalog_breadcrumb {
+    padding: 15px 90px;
   }
   .welcome-section_button {
     width: 150px;
