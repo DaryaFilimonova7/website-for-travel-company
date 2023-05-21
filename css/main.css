@@ -204,7 +204,6 @@ a {
   align-items: center;
   flex-wrap: wrap;
 }
-
 .popular-tours_card {
   position: relative;
   width: 350px;
@@ -218,16 +217,26 @@ a {
 }
 .popular-tours_card:hover {
  box-shadow:  15px 15px 30px #c4c2c8,
-             -15px -15px 30px #f4f3f6;
+             -15px -15px 30px #e5e5e8;
+}
+.popular-tours_img-container {
+  padding: 5px;
 }
 .popular-tours_img {
   border-radius: 10px;
+  height: 230px;
+  width: 100%;
+  object-fit: cover;
 }
 .popular-tours_content {
   padding: 15px 16px;
 }
+.popular-tours_maincontant {
+  height: 195px;
+  margin-bottom: 10px;
+}
 .popular-tours_head {
-  font-size: 25px;
+  font-size: 24px;
   color: #0a0a0a;
 }
 .popular-tours_text {
