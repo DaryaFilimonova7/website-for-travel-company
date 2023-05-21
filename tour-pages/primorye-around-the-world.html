@@ -671,28 +671,28 @@
 
 
           <div class="tour-booking_form-container">
-            <form class="tour-booking_form">
+            <form name="tour_booking_form" id="tour_booking_form" class="tour-booking_form">
 
               <div class="tour-booking_input-box">
                 <label class="tour-booking_input-label text-size" for="tour-booking_input_name">Ваше имя</label>
-                <input type="text" class="tour-booking_input-value text-size" id="tour-booking_input_name" required>
+                <input type="text" name="booking_name" class="tour-booking_input-value text-size" id="tour-booking_input_name" required>
               </div>
               <div class="tour-booking_input-box">
                 <label class="tour-booking_input-label text-size" for="tour-booking_input_phone">Ваш номер
                   телефона</label>
-                <input type="tel" class="tour-booking_input-value text-size" id="tour-booking_input_phone"
+                <input type="tel" name="booking_phone" class="tour-booking_input-value text-size" id="tour-booking_input_phone"
                        placeholder="+7 (___) ___-__-__" required>
               </div>
               <div class="tour-booking_input-box">
                 <label class="tour-booking_input-label text-size" for="tour-booking_input_email">Ваш e-mail</label>
-                <input type="email" class="tour-booking_input-value text-size" id="tour-booking_input_email"
+                <input type="email" name="booking_email" class="tour-booking_input-value text-size" id="tour-booking_input_email"
                        placeholder="name@example.com" required>
               </div>
               <div class="tour-booking_input-box">
                 <label class="tour-booking_input-label text-size" for="tour-booking_input_dates">Даты
                   путешествия</label>
                 <div class="tour-booking_select-wrap">
-                  <select class="tour-booking_input-value text-size tour-booking_select" name="tour-booking_dates"
+                  <select class="tour-booking_input-value text-size tour-booking_select" name="booking_dates"
                           id="tour-booking_input_dates" required>
                     <option value="">Выберите даты</option>
                     <option value="1">31 июл 2023 — 11 авг 2023 - 130.000 руб./чел.</option>
@@ -705,21 +705,18 @@
               <div class="tour-booking_input-box">
                 <label class="tour-booking_input-label text-size" for="tour-booking_input_people">Количество
                   человек</label>
-                <input type="number" class="tour-booking_input-value text-size tour-booking_people_value"
+                <input type="number" name="booking_people"  class="tour-booking_input-value text-size tour-booking_people_value"
                        id="tour-booking_input_people" min="1" max="16">
               </div>
               <div class="tour-booking_input-box">
                 <label class="tour-booking_input-label text-size" for="tour-booking_input_comment">Комментарии</label>
-                <textarea rows="3" type="text" class="tour-booking_input-value text-size"
+                <textarea name="booking_comment" rows="3" type="text" class="tour-booking_input-value text-size"
                           id="tour-booking_input_comment"></textarea>
               </div>
+              <button class="tour-booking_btn" type="submit"><span>Забронировать</span></button>
             </form>
-            <button class="tour-booking_btn"><span>Забронировать</span></button>
           </div>
-
         </div>
-
-
       </div>
     </div>
   </div>
