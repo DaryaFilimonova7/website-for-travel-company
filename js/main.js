@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
       form.classList.remove('_sending')
     }
     else{
+      form.classList.add('_sending')
       alert("Ошибка отправки формы.")
       form.classList.remove('_sending')
     }
